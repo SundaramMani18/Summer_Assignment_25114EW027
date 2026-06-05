@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main(){
 int i=2;
-int n, a=0, b=1,p;
+int n, a=1, b=0,p;
 printf("Enter n:");
 scanf("%d", &n);
-for  (i; i<n; i++) {
+for  (i; i<=n; i++) {
 p = a + b;
  a= b;
  b= p;
 }
 if (n == 1)
-printf("Not exist\n");
+printf("The First fabonacci series is=0\n");
 else
 printf("The %dth Fibonacci term = %d", n, b);
     return 0;
