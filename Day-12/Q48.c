@@ -4,8 +4,8 @@ int perfect(int n){
 for(i=1;i<n;i++){
 if (n%i==0){
       s=s+i;
-}
-}
+    }
+ }
 return s==n;
 }
 int main(){
